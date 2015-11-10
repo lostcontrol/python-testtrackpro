@@ -312,7 +312,8 @@ class TTP(object):
         
         if not plugins:
             plugins = []
-        plugins.append(_ttpwsdlfixplugin)
+        # Not need in my case!?
+        #plugins.append(_ttpwsdlfixplugin)
         
         try:
             self._client = suds.client.Client(
