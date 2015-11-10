@@ -22,6 +22,6 @@ setup(
         "Topic :: Utilities",
         "Topic :: Software Development :: Libraries :: Python Modules",
     ],
-    install_requires=['suds>=0.4',],
+    install_requires=['suds-jurko>=0.6',],
     keywords=["testtrack", "testtrackpro", "soap", "suds"],
 )
